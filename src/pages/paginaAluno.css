@@ -1,0 +1,84 @@
+.header_aluno{
+    height: 60px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #5584af, #370D44);
+    color: #fff;
+
+
+     justify-content: space-between;
+     /* padding: 10px 8px; */
+     border-bottom: 1px solid #ccc;
+}
+
+.header_professor .header_logo {
+    height:auto;
+    width: auto;
+}
+
+.nav_login {
+    display: flex;
+}
+
+.nav_login ul {
+    display: flex;
+    
+}
+
+.nav_login ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav_login ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.nav_login ul li :hover{
+    color: #F58800;
+}
+
+.imagem_logo {
+    height: 65px;
+    width: 65px;
+    border-radius: 100px;
+}
+
+.nav_login .avatar{
+    display: flex;
+    align-items: center;
+}
+
+.nav_login .avatar img {
+    width: 35px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+label {
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    label{
+        display: none;
+    }    
+}

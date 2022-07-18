@@ -1,0 +1,142 @@
+.conteiner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_principal {
+    background-color: #FFF;
+    width: 200px;
+    padding-left: 35px;
+    padding-right:  35px;
+    padding-bottom: 35px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_principal img {
+    width: 200px;
+    }
+
+.opcoes {
+    background-color: #FFF;
+    width: 280px;
+    padding: 35px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.navegacao ul{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+hr {
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right,
+        rgba(120, 120, 120, 0),
+        rgba(120, 120, 120, 0.75),
+        rgba(120, 120, 120, 0));
+}
+
+/* .formulario {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .formulario {
+    margin-top: 0;
+    margin-bottom: 40px;
+} */
+
+/* .aluno {
+    background-color: #FFF;
+    width: 280px;
+    padding: 35px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+.titulo {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario input {
+    border: 1px solid #BBB;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 3px 8px;
+    outline: none;
+}
+
+.formulario button {
+    align-self: flex-end;
+    background-color: #2460ae;
+    color: #FFF;
+    padding: 5px 15px;
+}
+
+.footerLogin ul  {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.footerLogin ul li {
+    display: inline;
+    padding: 5px;
+}
+
+.formulario hr {
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right,
+        rgba(120, 120, 120, 0),
+        rgba(120, 120, 120, 0.75),
+        rgba(120, 120, 120, 0));
+}
